@@ -4,7 +4,7 @@ install-inf
 Abstract
 --------
 
-``install-inf.pl`` is a simple **Perl script** which can be used as a lighweight replacement for **Zadig** (http://zadig.akeo.ie)
+``install-inf.pl`` is a simple **Perl script** which can be used as a lighweight replacement for `Zadig <http://zadig.akeo.ie>`_.
 
 Motivation
 ----------
@@ -18,7 +18,7 @@ The trick is to *force-update* the driver. This can be achieved by calling ``Upd
 Usage
 -----
 
-1. Prepare the proper ``.inf`` file as described in the official Microsoft WinUSB guide at: https://msdn.microsoft.com/en-us/library/windows/hardware/ff540283(v=vs.85).aspx
+1. Prepare the proper ``.inf`` file as described in the official Microsoft `WinUSB guide <https://msdn.microsoft.com/en-us/library/windows/hardware/ff540283(v=vs.85).aspx>`_.
 
 2. *[OPTIONAL]* Create a ``.cat`` file using ``inf2cat`` and sign it with ``signtool``
 
