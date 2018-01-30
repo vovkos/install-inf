@@ -10,6 +10,11 @@ open (my $f, '<', $infFileName) || die ("cannot open $infFileName: $!\n");
 my $hwId;
 while (my $s = <$f>)
 {
+	if ($s =~ m/[\s]*;/)
+	{
+		next;
+	}
+
 	if ($s =~ m/([^\s]*VID_[0-9a-f]{4}&PID_[0-9a-f]{4}[^\s]*)/i)
 	{
 		$hwId = $1;
